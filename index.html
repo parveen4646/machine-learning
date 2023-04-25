@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hi, my name is John and I'm a machine learning engineer. I specialize in developing deep learning models for computer vision applications.</p>
+		</section>
+		<section id="projects">
+			<h2>Projects</h2>
+			<ul>
+				<li><a href="https://github.com/john/project1">Project 1</a></li>
+				<li><a href="https://github.com/john/project2">Project 2</a></li>
+				<li><a href="https://github.com/john/project3">Project 3</a></li>
+			</ul>
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>Python</li>
+				<li>TensorFlow</li>
+				<li>Keras</li>
+				<li>PyTorch</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 John Doe. All rights reserved.</p>
+	</footer>
+</body>
+</html>
